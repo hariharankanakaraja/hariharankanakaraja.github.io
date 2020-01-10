@@ -604,9 +604,13 @@ a.active {
     text-align: center;
 }
 
+.portfolio_item{
+    text-align: center !important;
+}
 .portfolio_item img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    display: inline-block !important;
+    /*-webkit-filter: grayscale(100%);*/
+    /*filter: grayscale(100%);*/
 }
 
 .portfolio-padding {
@@ -766,7 +770,8 @@ fieldset {
 }
 
 .social li {
-    float: left;
+    display: inline-block;
+    /*float: left;*/
 }
 
 .social li a {
@@ -824,4 +829,8 @@ fieldset {
     nav li a {
         font-size: 10px;
     }
+}
+
+.portfolio .categories-grid .categories ul li a.active{
+    color: white !important;
 }
